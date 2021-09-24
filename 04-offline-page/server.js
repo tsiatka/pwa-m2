@@ -6,5 +6,5 @@ const app = express();
 app.use("/", express.static(__dirname + "/public"));
 
 app.listen("8004", () => {
-  console.log("App started on port 8004");
+  console.log("App started on port http://localhost:8004");
 });
